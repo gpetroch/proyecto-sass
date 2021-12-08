@@ -1,0 +1,20 @@
+
+header{
+    nav{
+        padding: 2rem;
+        background-color: grey;
+        font: $tituloNav;
+        ul{
+            display: flex;
+            margin: 10px;
+        li{ 
+            list-style: none;
+            padding: 1rem;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+}
+}
+}
