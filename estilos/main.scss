@@ -10,3 +10,22 @@
     color: $colorTitulo;
     margin-left: 30px;
 }
+
+
+.pruebaExtend {
+    font-weight: 800;
+    font-family: 'DM Serif Text', serif;
+    font-size: 25px;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+}
+
+.pruebaExtend--nuevo{
+    @extend .pruebaExtend;
+    border-color: hotpink;
+    border-radius: 20px;
+    background-color: green;
+    width: 340px;
+}

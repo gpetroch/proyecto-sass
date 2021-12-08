@@ -1,3 +1,4 @@
+/* Nesting*/
 header nav {
   padding: 2rem;
   background-color: grey;
@@ -29,5 +30,22 @@ body {
   font: 63px "Titillium Web", sans-serif;
   color: #5d635c;
   margin-left: 30px;
+}
+
+.pruebaExtend, .pruebaExtend--nuevo {
+  font-weight: 800;
+  font-family: 'DM Serif Text', serif;
+  font-size: 25px;
+  line-height: 25px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: 20px;
+}
+
+.pruebaExtend--nuevo {
+  border-color: hotpink;
+  border-radius: 20px;
+  background-color: green;
+  width: 340px;
 }
 /*# sourceMappingURL=main.css.map */
